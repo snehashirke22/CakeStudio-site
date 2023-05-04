@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CakeStudio</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <!--Navigation bar-->
+        <nav>
+            <div class="logo">The Cake Studio</div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+              <li><a class="active" href="#home">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#orders">Orders</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#login">Log In</a></li>
+              
+            </ul>
+          </nav>
+    </header>
+    <br>
+
+
+    <!--Front-->
+    <div class="clearfix">
+        <p id="frontimg"><img src="media\first_cake.jpg" alt="cake" width="1500px" height="500px"></p>
+    </div>
+    <div class="imgtext">
+        <h2>The Cake Studio</h2>
+        <p >It's not just a cake, it's love ! </p>
+        <button>Explore Menu</button>
+    </div>
+
+
+    <!--Slogan-->
+    <div id="slogan">
+        <p>"Love is like a good cake; you never know when it's coming,
+            but you'd better eat it when it does!"</p>
+        <p>- C. Joybell</p>
+    </div>
+    <hr style=" border-bottom: 10px solid orange;">
+
+    <!--Our Products-->
+    <div class="products">
+        <p>Our Products</p>
+    </div>
+
+    <table id="boxed" class="clearfix">
+        <tr>
+            <td style="width:15px"></td>
+            <td>
+                <div>
+                    <div>
+                        <img src="media\cake.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                    </div>
+                    <br>
+                    <div>
+                        <button class="imgButton" style="padding:20px 130px;">Cakes</button>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div>
+                    <div>
+                        <img src="media\cupcake.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                    </div>
+                    <br>
+                    <div>
+                        <button class="imgButton" style="padding:20px 110px;">Cupcakes</button>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div>
+                    <div>
+                        <img src="media\cookies.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                    </div>
+                    <br>
+                    <div>
+                        <button class="imgButton">Cookies</button>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div>
+                    <div>
+                        <img src="media\pastry.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                    </div>
+                    <br>
+                    <div>
+                        <button class="imgButton">Pastry</button>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+
+    <!--Features-->
+    <div class="feature">
+        <table class="feature">
+            <tr>
+                <th style="border-right: 5px solid black;">Freshly made</th>
+                <th style="border-right: 5px solid black;">Same Day Delivery</th>
+                <th>25+ bakeries nationwide</th>
+            </tr>
+            <tr>
+                <td style="border-right: 5px solid black;">Our classic treats and special orders are made freshly in our
+                    local 25+ bakeries</td>
+                <td style="border-right: 5px solid black;">We deliver locally to homes and businesses near our stores.
+                </td>
+                <td>&nbsp;Rapidly spreading franchises across INDIA with the aim to serve every pin code</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!--Bestseller Cake-->
+    <div class="clearfix" id="boxed2">
+        <h1>Bestseller Cake of the week</h1>
+        <hr style=" border-bottom: 10px solid white;">
+        <table>
+            <tr>
+                <td style="width:50px;"></td>
+                <td>
+                    <div>
+                        <img src="media\offercake.jpg" width="400px" height="500px" />
+                    </div>
+
+                </td>
+
+                <td style="width:80px;"> </td>
+
+                <td>
+                    <div>
+                        <p id="bestseller">ButterScotch Cake</p>
+                        <p class="offerForm">Base: Brown Sugar cake<br>
+                            Filling Topping: Creamcheese and Buttercream<br>
+                            Garnish: Macarons and icecream</p>
+                        <p style="font-size:35px; color:orange">starting from ₹ 430</p>
+                        <form class="offerForm">
+                            <label for="KG">Serving Size</label>
+                            <select id="KG" name="KG" style="padding:8px">
+                                <option value="Half Kg">Half Kg</option>
+                                <option value="1 Kg">1 Kg</option>
+                                <option value="2 Kg">2 Kg</option>
+                                <option value="3 Kg">3 Kg</option>
+                                <option value="4 Kg">4 Kg</option>
+                            </select>
+
+                            <br><br>
+
+                            <label for="egg" style="color:orange;">Eggless</label><br>
+                            <input type="checkbox" id="egg" name="egg" value="eggless">
+
+                            <label for="message"></label><br>
+                            <input type="text" id="message" name="message" value="" placeholder="Message On Cake"
+                                style="padding:8px">
+                        </form>
+                        <br>
+                        <button class="imgButton2">Order Now</button>
+                    </div>
+                </td>
+        </table>
+    </div>
+
+    <!--About Us-->
+    <div class="container" id="aboutus">
+
+        <img src="media\aboutus.jpg" alt="about" width="100%" height="700px">
+        <div class="content">
+            <p class="products">About Us</p>
+            <p style="font-size:20px">Lorem ipsum dolor sit amet, an his etiam torquatos.Tollit soleat phaedrum te
+                duo,eum cu recteque expetendis neglegentur.
+                Cu mentitum maiestatis persequeris pro, pri ponderum tractatos Lorem ipsum dolor sit amet consectetur
+                adipisicing <br>
+                Commodi cumque iste, facere impedit odit earum velit sequi voluptatem ut, dolore dolorem pariatur
+                architecto obcaecati.
+                Quasi, pariatur. A earum cupiditate doloremque aspernatur fugiat quidem sapiente magni at officiis
+                saepe, maxime ut <br>
+                voluptatum quod ab dolor nesciunt assumenda fuga id provident corporis?Lorem ipsum, dolor sit amet
+                consectetur adipisicing
+                elit. Corporis, dolore! Doloribus veritatis soluta dolorem hic numquam voluptas enim reiciendis eum?
+                Quibusdam deseruntbr <br>
+                incidunt repellat dicta. Impedit dolorem doloremque minus minima voluptatibus alias nobis enim atque ad
+                dignissimos facere
+                totam amet omnis, nulla dolore eos quas! Blanditiis necessitatibus neque obcaecati praesentium?</p>
+            <p style="font-size:20px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maiores
+                perspiciatis reiciendis
+                ea repudiandae quisquam ducimus quo corporis, molestias quia, harum sint earum, hic culpa saepe vitae
+                fugit cum?Hic illo, labore fuga inventore quo eum dolores harum, rerum temporibus eius maxime et minima
+                repudiandae ad aliquam <br>
+                saepe cupiditate? Temporibus dignissimos, quasi ex molestiae omnis fugit enim, hic ipsam maiores, odio
+                ad nemo porro
+                deserunt eveniet non amet. Dolorum cupiditate, sunt atque laudantium qui explicabo eius quam facilis
+                eligendi nostrum!
+            </p>
+            <button type="button" class="imgButton2">Read More</button>
+            <p></p>
+        </div>
+    </div>
+
+    <br>
+
+    <!--Menu-->
+    <p class="products" id="menu">Menu</p>
+    <div id="menuBox">
+        <table class="mcontainer" class="clearfix">
+            <tr>
+                <td>
+                    <div>
+                        <div class="mcontainer">
+                            <img src="media\blueberrycake.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                            <div class="overlay">Blueberry cake <br>Rs.460</div>
+                        </div>
+                        <br>
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <div class="mcontainer">
+                            <img src="media\chocolate_cake.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                            <div class="overlay">Chocolate Cake <br>Rs.280</div>
+                        </div>
+                        <br>
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <div class="mcontainer">
+                            <img src="media\straberry_pastry.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                            <div class="overlay">Strawberry Pastry <br>Rs.50</div>
+                        </div>
+                        <br>
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <div class="mcontainer">
+                            <img src="media\rasberry_cup.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                            <div class="overlay">Rasberry Cupcake <br>Rs.250 (6 pcs.)</div>
+                        </div>
+                        <br>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div>
+                        <div class="mcontainer">
+                            <img src="media\chocochip_cookie.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                            <div class="overlay">Chocochip Cookies <br>Rs.240</div>
+                        </div>
+                        <br>
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <div class="mcontainer">
+                            <img src="media\fruit_cupcake.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                            <div class="overlay">Fruit Cupcake <br>Rs.350 (6 pcs.)</div>
+                        </div>
+                        <br>
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <div class="mcontainer">
+                            <img src="media\redvelvet.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                            <div class="overlay">Red Velvet Cake <br>Rs.500</div>
+                        </div>
+                        <br>
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <div class="mcontainer">
+                            <img src="media\rasmalai_pastry.jpg" width="300px" height="400px" style="border-radius:20px;" />
+                            <div class="overlay">Rasmalai Pastry <br>Rs.70</div>
+                        </div>
+                        <br>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <button class="imgButton2">View more </button>
+    </div>
+
+    
+    <footer>
+        <div class="content">
+          <div class="left box">
+            <div class="upper">
+              <div class="topic">Contact us</div>
+              <p>For order or franchise related enquiries call us at 022-1234567 or mail us at thecakestudio@enquiry.com 
+             we will surely reach to you for assistance</p>
+            </div><br>
+            <div class="lower">
+              <div class="topic">Address</div>
+              <div class="address">KM complex, shop no.8 ,Patel road , opposite citi mall, Andheri(E),Mumbai,Maharashtra,India</div>
+            </div>
+          </div>
+          <div class="middle box">
+            <div class="topic">Quick Links</div>
+            <div><a href="#home">Home</a></div>
+            <div><a href="#menu">Menu</a></div>
+            <div><a href="#orders">Orders</a></div>
+            <div><a href="#aboutus">About Us</a></div>
+            <div><a href="#contact">Contact</a></div>
+          </div>
+          <div class="right box">
+            <div class="topic">Subscribe us</div>
+            <div>Get latest updates and exciting offers by subscribing our newsletter !</div><br>
+            <form action="#">
+              <input type="text" placeholder="Enter email address">
+              <input type="submit" name="" value="Subscribe">
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Made by using HTML and CSS . Compatible only on laptop and PCs</p>
+        </div>
+      </footer>
+    
+<div class="row copyright">
+   <p style="color:#ffff ;">Copyright &copy; 2021 Sneha Rajeshirke</p>
+</div>
+
+</body>
+
+</html>

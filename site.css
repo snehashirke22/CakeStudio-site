@@ -1,0 +1,399 @@
+body{
+    background-color:#1a1a1a;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+/*Navigation bar*/
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: orange;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 70px;
+ 
+}
+nav .logo{
+  color:orange;
+  background-color: black;
+  font-size: 35px;
+  font-weight: 600;
+
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: orange;
+  background: black;
+}
+nav .menu-btn i{
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+
+/*Frontpage image*/
+
+.clearfix{
+    overflow: auto;
+}
+
+#frontimg{
+    filter: blur(2px);
+}
+
+.imgtext {
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    transform: translate(-50%, -50%);
+
+}
+
+.imgtext h2{
+    font-size: 80px;
+    color:black;
+}
+
+.imgtext p{
+    font-size: 50px;
+    color:black;
+}
+
+.imgtext button{
+    padding: 25px 30px;
+    background-color:black;
+    color:aliceblue;
+    cursor: pointer;
+    border-style: inset;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.imgtext button:hover {
+    background-color:orange;
+    border-color: orange;
+}
+
+
+/*Slogan*/
+#slogan{
+    font-size: 20px;
+    font-family:cursive;
+    color:White;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/*Our products*/
+.products{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:orange;
+    text-align: center;
+}
+
+#boxed{
+    width: 96%;
+    border:10px solid orange;
+    border-radius: 20px;
+    padding:30px;
+    margin:20px;
+    background-color:antiquewhite;
+}
+
+.imgButton{
+    background-color:black; 
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    font-size: 20px;
+  border:orange;
+  border-radius: 40px;
+  color:White;
+  padding: 20px 120px;
+  display:flexbox;
+
+}
+.imgButton:hover {
+    background-color:orange;
+}
+
+
+
+/*Features*/
+.feature{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    width: 96%;
+    padding:5px;
+    margin:20px;
+    background-color:orange;
+    margin-top: 10px;
+    border-radius: 80px;
+}
+
+
+
+
+/*Offer*/
+#bestseller{
+
+    font-size:50px; 
+    color:orange;
+}
+#boxed2{
+    width: 90%;
+    border:10px solid orange;
+    padding:10px;
+    margin:60px;
+    background-color:black;
+}
+
+#boxed2 h1{
+    font-size:60px; font-weight: bold ;color:orange; margin-left:20px; text-align: left;
+}
+
+.offerForm{
+    font-size:20px; 
+    color:orange;
+}
+
+
+/*About Us*/
+  
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    position: relative;
+    /*max-width: 800px;*/
+    margin: auto;
+
+  }
+  
+  .container .content{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .imgButton2{
+    background-color:orange; 
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    font-size: 20px;
+  border:orange;
+  border-radius: 40px;
+  color:White;
+  padding: 20px 120px;
+  display:flexbox;
+
+}
+.imgButton2:hover {
+    opacity:0.8;
+}
+
+
+
+  /*Menu*/
+#menuBox{
+    width: 90%;
+    border:10px solid black;
+    padding:50px;
+    margin:70px;
+    background:url(orange.jpg);
+}
+
+.mcontainer {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6); /* Black see-through */
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .mcontainer:hover .overlay {
+    opacity: 1;
+  }
+
+
+/*Footer*/
+*{
+  text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+footer{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: orange;
+  
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.topic p,a{
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+footer .content .box{
+    width: 33%;
+    transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: black;
+  background: #fff;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: black;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.content .right input[type="submit"]:hover{
+  background:#222222;
+  color: #fff;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: black;
+  background-color: black;
+  color: #d9d9d9;
+}
+footer .bottom{
+  width: 100%;
+  text-align: center;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #eb2f06;
+}
+
+footer a:hover{
+  color: #fff;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
